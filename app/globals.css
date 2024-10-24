@@ -1,0 +1,13 @@
+
+.signInBtn {
+  width: 100%;
+  margin-top: 30px;
+  height: 44px;
+  left: calc(50% - 424px / 2 + 1px);
+  background: linear-gradient(0deg, #1b32df, #3c1bdf), #1b2ec0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  text-transform: uppercase;
+}
