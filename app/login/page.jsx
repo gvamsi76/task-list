@@ -54,8 +54,8 @@ function Login() {
                 setLoading(false)
 
                 showToast("success", response?.data?.message)
-                SetLocalStorage("user",response?.data);
-                SetLocalStorage("token", JSON.stringify(response?.data.access));
+                SetLocalStorage("user",JSON.stringify(response?.data));
+                SetLocalStorage("token", response?.data.access);
                 router.push("/")
             }
 
